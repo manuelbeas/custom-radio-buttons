@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom RadioButtons</title>
+    <link rel="stylesheet" href="custom-radio-buttons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            padding: 40px;
+            background: rgb(252, 252, 252);
+            background-size: cover !important;
+            background-repeat: no-repeat !important;
+            background-position: 50% 50% !important;
+            transition: .4s all ease;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .example-container {
+            padding: 40px;
+            background-color: rgb(231 241 233 / 85%);
+            border-radius: 6px;
+            max-width: 700px;
+            width: 100%;
+        }
+        
+        h1 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 60px;
+            margin-bottom: 0px;
+        }
+        
+        p {
+            font-family: 'Quicksand', sans-serif;
+            font-size: 18px;
+            line-height: 26px;
+            margin-top: 16px;
+            margin-bottom: 8px;
+            padding-bottom: 0px;
+        }
+        
+        .radio-container {
+            padding: 40px 0px;
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            gap: 20px;
+            justify-content: start;
+            background: #fff;
+            border-radius: 6px;
+            margin-top: 12px;
+            margin-bottom: 44px;
+        }
+        
+        .radio-container.column {
+            display: block;
+        }
+    </style>
+</head>
+
+<body id="i-want-a-background">
+
+    <div class="example-container">
+
+
+
+        <h1>Custom RadioButtons</h1>
+        <p>Hey! Estos son radiobuttons customizables ¡Están geniales! <br> Puedes especificar tamaño, color y hasta imágenes ¡Es una locura!</p>
+
+        <div class="radio-container">
+
+            <label class="custom-radio-btn" data-color="#fff" data-width="35" data-height="35">
+                <input type="radio" name="radios" checked>
+                <span class="checkmark"></span>
+            </label>
+
+            <label class="custom-radio-btn" data-color="#361F33" data-width="35" data-height="35">
+                <input type="radio" name="radios">
+                <span class="checkmark"></span>
+            </label>
+
+            <label class="custom-radio-btn" data-color="#201C2B" data-width="35" data-height="35">
+                <input type="radio" name="radios">
+                <span class="checkmark"></span>
+            </label>
+
+            <label class="custom-radio-btn" data-color="#670F4C" data-width="35" data-height="35">
+                <input type="radio" name="radios">
+                <span class="checkmark"></span>
+            </label>
+
+            <label class="custom-radio-btn" data-color="#CE225A" data-width="35" data-height="35">
+                <input type="radio" name="radios">
+                <span class="checkmark"></span>
+            </label>
+
+            <label class="custom-radio-btn" data-color="#E95150" data-width="35" data-height="35">
+                <input type="radio" name="radios">
+                <span class="checkmark"></span>
+            </label>
+
+            <label class="custom-radio-btn" data-image="https://images.pexels.com/photos/3977262/pexels-photo-3977262.jpeg" data-width="35" data-height="35">
+                <input type="radio" name="radios">
+                <span class="checkmark"></span>
+            </label>
+
+            <label class="custom-radio-btn" data-image="https://images.pexels.com/photos/8305201/pexels-photo-8305201.jpeg" data-width="35" data-height="35">
+                <input type="radio" name="radios">
+                <span class="checkmark"></span>
+            </label>
+
+            <label class="custom-radio-btn" data-image="https://images.pexels.com/photos/8802893/pexels-photo-8802893.jpeg" data-width="35" data-height="35">
+                <input type="radio" name="radios">
+                <span class="checkmark"></span>
+            </label>
+
+            <label class="custom-radio-btn" data-image="https://images.pexels.com/photos/10157060/pexels-photo-10157060.jpeg" data-width="35" data-height="35">
+                <input type="radio" name="radios">
+                <span class="checkmark"></span>
+            </label>
+
+            <label class="custom-radio-btn" data-image="https://images.pexels.com/photos/10012590/pexels-photo-10012590.jpeg" data-width="35" data-height="35">
+                <input type="radio" name="radios">
+                <span class="checkmark"></span>
+            </label>
+
+            <label class="custom-radio-btn" data-image="https://images.pexels.com/photos/10070076/pexels-photo-10070076.jpeg" data-width="35" data-height="35">
+                <input type="radio" name="radios">
+                <span class="checkmark"></span>
+            </label>
+
+            <label class="custom-radio-btn" data-image="https://images.pexels.com/photos/8086086/pexels-photo-8086086.jpeg" data-width="35" data-height="35">
+                <input type="radio" name="radios">
+                <span class="checkmark"></span>
+            </label>
+
+            <label class="custom-radio-btn" data-image="https://images.pexels.com/photos/9557619/pexels-photo-9557619.jpeg" data-width="35" data-height="35">
+                <input type="radio" name="radios">
+                <span class="checkmark"></span>
+            </label>
+
+            <label class="custom-radio-btn" data-image="https://images.pexels.com/photos/9772527/pexels-photo-9772527.jpeg" data-width="35" data-height="35">
+                <input type="radio" name="radios">
+                <span class="checkmark"></span>
+            </label>
+
+            <label class="custom-radio-btn" data-image="https://images.pexels.com/photos/4691417/pexels-photo-4691417.jpeg" data-width="35" data-height="35">
+                <input type="radio" name="radios">
+                <span class="checkmark"></span>
+            </label>
+
+        </div>
+        <p>
+            Sí desea añadir un color sólo necesitará colocar el código Hexadecimal en el atributo datra-color del color de su preferencia. También si desea mostrar el radio buttón en un tamaño específico puede hacerlo especificando el tamaño ingrensando un número
+            en el atributo data-width o data-height, mismo que será considerado en pixeles.
+        </p>
+        <textarea readonly style="height: 80px; width: 100%; border: none; background: rgb(245, 245, 245); ">
+            <label class="custom-radio-btn" data-color="[HEXADECIMAL]" data-width="[PIXELES]" data-height="[PIXELES]">
+                <input type="radio" name="radios" checked>
+                <span class="checkmark"></span>
+            </label>
+        </textarea>
+        <p>
+            Por otro lado sí deseas añadir una imagen como fondo o textura lo puedes hacer tan sólo utilizando el atributo data-image y colocando la ruta a la imagen de tu preferencia.
+        </p>
+        <textarea readonly style="height: 80px; width: 100%; border: none; background: rgb(245, 245, 245); ">
+            <label class="custom-radio-btn" data-image="[URL/path]" data-width="[PIXELES]" data-height="[PIXELES]">
+                <input type="radio" name="radios" checked>
+                <span class="checkmark"></span>
+            </label>
+        </textarea>
+
+    </div>
+</body>
+
+
+<script type="text/javascript" src="./custom-radio-buttons.js"></script>
